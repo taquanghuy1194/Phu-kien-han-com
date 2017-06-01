@@ -1,0 +1,385 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+
+section h1 {
+	font-size: 24px;
+	font-family: "Minion", Time New Romal, serif;
+	font-weight: bold;
+	color: #363636;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+section h2 {
+	margin: 0;
+}
+
+p {
+	font-size: 14px;
+	line-height: 30px;
+	color: #363636;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.thumbnail {
+	border-radius: 0;
+	padding: 0;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.anchor{
+  	display: block;
+  	height: 80px; /*same height as header*/
+  	margin-top: -80px; /*same height as header*/
+  	visibility: hidden;
+}
+/* ========================= Menu ======================== */
+/*#menu {
+	margin-bottom: 80px;
+}*/
+
+#menu .navbar {
+	border: 0;
+	margin-bottom: 0;
+	padding: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+#menu .navbar ul li a {
+	color: #3a3a3a;
+	padding: 30px 20px;
+}
+
+#menu .navbar ul li a:hover {
+	background: #e7e7e7;
+}
+
+/* ========================= Header ======================== */
+
+header .banner {
+	min-height: 550px;
+	width: 100%;
+	background: #a8a8a8 url(../images/banner.jpg) center center no-repeat;
+	background-size: cover;
+	margin: 0;
+	margin-top: 80px;
+}
+
+header .banner .company-info {
+	padding-top: 160px;
+}
+
+header .banner .company-info h1 {
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: lighter;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+header .banner .company-info p {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+header .banner .company-info a {
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 900;
+    background: #00aeef;
+    display: inline-block;
+    padding: 5px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+header .banner .company-info a:hover {
+	text-decoration: none;
+}
+
+/* ========================= Feature One ======================== */
+
+#feature-one {
+	padding: 43px 0 50px 0;
+}
+
+#feature-one img {
+	margin: 0;
+}
+
+#feature-one .img-pro {
+	position: relative;
+}
+
+#feature-one img {
+	position: absolute;
+	top:-65px;
+}
+
+/* ========================= Feature Two ======================== */
+
+#feature-two {
+	background: #f3f3f3;
+	padding: 43px 0 30px 0;
+}
+
+#feature-two p {
+	line-height: 25px;
+}
+
+#feature-two .list-product {
+	padding-top: 15px;
+}
+
+#feature-two .product {
+	border: 1px solid #d5d5d5;
+	margin-bottom: 25px;
+}
+
+#feature-two .product a:hover {
+	text-decoration: none;
+}
+
+#feature-two .product h2 {
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
+	background: #00aeef;
+	padding: 10px;
+	text-align: center;
+}
+
+#feature-two .product .thumbnail {
+	margin: 0;
+}
+
+/* ========================= Feature Three ======================== */
+
+#feature-three {
+	padding: 43px 0 40px 0;
+}
+
+#feature-three .list-product-hot {
+	margin-top: 10px;
+}
+
+#feature-three .product-hot h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #363636;
+	margin-bottom: 10px;
+}
+
+#feature-three .product-hot a:hover {
+	text-decoration: none;
+}
+
+#feature-three .product-hot ul li {
+	list-style-type: none;
+	position: relative;
+	padding-left: 15px;
+	line-height: 25px;
+}
+
+#feature-three .product-hot img {
+	width: 100%;
+}
+
+#feature-three .product-hot ul li:before {
+	font-family: "FontAwesome";
+	content: "\f111";
+	position: absolute;
+	left: 2px;
+	font-size: 7px;
+}
+
+/* ========================= Feature Four ======================== */
+
+#feature-four {
+	background: #f3f3f3;
+	padding: 30px 0 45px;
+}
+
+#feature-four p {
+	line-height: 30px;
+	font-size: 16px;
+}
+
+#feature-four img {
+	width: 100%;
+}
+
+#feature-four .company-description a {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+    display: inline-block;
+    width: 406px;
+    height: 60px;
+    line-height: 60px;
+    background: url(../images/button.jpg) no-repeat;
+    margin-top: 20px;	
+}
+
+/* ========================= Footer ======================== */
+
+footer {
+	background: #272726;
+	color: #ffffff;
+	padding: 35px 0 30px 0;
+	border-top: 2px solid #707072;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+footer .company-link .menu-bottom ul li {
+	display: inline-block;
+}
+
+footer .company-link {
+	border-bottom: 1px solid #50504f;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+footer .company-link .menu-bottom ul li a {
+	color: #dfdaed;
+	padding-right: 35px;
+	font-family: "Open sans", Arial, sans-serif;
+	font-size: 16.56px;
+}
+
+footer .company-link .menu-bottom ul li a:hover {
+	color: #ffffff;
+}
+
+footer .social ul li {
+	display: inline-block;
+}
+
+footer .social ul li a {
+	color: #ffffff;
+	padding-left: 25px;
+}
+
+footer .social ul li a:hover img {
+	opacity: 0.5;
+}
+
+footer .copyright {
+	color: #fcfcfc;
+} 
+
+/* ========================= Responsive Media ======================== */
+
+@media screen and (max-width: 1200px) {
+	footer .company-link .menu-bottom ul li a {
+		padding-right: 25px;
+		font-size: 15px;
+	}
+
+	.social ul li a {
+		padding-left: 17px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#menu .navbar ul li {
+		padding: 0 5px;
+	}
+
+	#feature-one .img-pro .img-responsive {
+		display: inline-block;
+	}
+
+	#feature-one .img-pro {
+		text-align: center;
+	}
+
+	#feature-one img {
+		position: relative;
+		top: 0px;
+	}
+
+	#feature-four .company-description a {
+	    margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	header .banner .company-info h1 {
+		font-size: 55px;
+	}
+
+	.btn-hotline {
+		text-align: center;
+	}
+
+	footer .company-link .menu-bottom ul {
+		text-align: center;
+	}
+
+	.social ul {
+		text-align: center;
+	}
+
+	footer .social ul li a {
+	    padding-left: 18px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	section h1 {
+		font-size: 20px;
+	}
+	header .banner .company-info {
+		padding-top: 70px;
+	}
+
+	#feature-three .product-hot h2 {
+		font-size: 18px;
+	}
+
+	footer .company-link .menu-bottom ul li a {
+		padding: 0 7px;
+	}
+
+	#feature-four .company-description a {
+		font-size: 16px;
+	    width: 290px;
+	    background: url(../images/btn-small.jpg) no-repeat;
+	}
+
+}
+
+@media screen and (max-width: 375px) {
+	header .banner .company-info a {
+		padding: 5px 15px;
+		font-size: 24px;
+	}
+
+	footer .company-link .menu-bottom ul li a {
+		padding-right: 6px;
+		font-size: 13px;
+	}
+}
